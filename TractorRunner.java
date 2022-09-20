@@ -1,0 +1,34 @@
+class TractorRunner{
+	public static void main(String[]somu){
+    Tractor.printDetails();		
+		Tractor.Type="Majar";
+		Tractor.Brand="HMT";
+		Tractor.WheelDrive=4;
+		Tractor.HP=60;
+		Tractor.comfert=true;
+		Tractor.clutchtype="double";
+		int[]FGear={1,2,3,4,5};
+		Tractor.FGears=FGear;
+		int[]RGear={1,2,3};
+		Tractor.RGears=RGear;
+		String[]colors={"Orange","Red","Metalic"};
+		Tractor.color=colors;
+		double[]Tyresize={100,100,50,50};
+		Tractor.Tyresizes=Tyresize;
+		double[]PTOrpms={960,540};
+		Tractor.PTOrpm=PTOrpms;
+		String[]Instrument={"Rotar","Cultivator","Hoew","etc"};
+		Tractor.Instruments=Instrument;
+		String[]mailez={"plough:7","Rotar:4","Trailer:3"};
+		Tractor.maileze=mailez;
+		char[]Loadgear={'H','M','L'};
+		Tractor.Loadgears=Loadgear;
+		String[]Trailers={"2Tyre","4Tyre"};
+		Tractor.Trailer=Trailers;
+		String[]Use={"Agricultural","Business","Transport"};
+		Tractor.Uses=Use;
+		String[]BrandinINDIA={"HMT","Mahindra","Sonalika"};
+		Tractor.BrandsinINDIA=BrandinINDIA;
+	Tractor.printDetails();
+	}
+}
