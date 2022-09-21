@@ -1,0 +1,50 @@
+class ToothpasteRunner{
+	public static void main(String []rudra){
+	Toothpaste.setName("DantKanti");
+	Toothpaste.setBrand("Patanjali");
+	Toothpaste.setQuntaty(200);
+	Toothpaste.setPrice(100);
+	Toothpaste.setPasteColor("brown");
+	Toothpaste.setCoverColor("White");
+	Toothpaste.setNoOfcolours(3);
+	Toothpaste.setFlaver("Ayurvedic");
+	Toothpaste.setMfg("10/02/2022");
+	Toothpaste.setPacked(true);
+	Toothpaste.setWithBrush(false);
+	Toothpaste.setBarcode(123456789221L);
+	Toothpaste.setCustomercare(1800225599L);
+	Toothpaste.setUsers(50000000L);
+	Toothpaste.setExparydate("best before 12 months");
+	Toothpaste.getName();
+	String  refr1=Toothpaste.getName();
+	System.out.println(refr1);
+	String refr2=Toothpaste.getBrand();
+    System.out.println(refr2);
+    int refr3=Toothpaste.getQuntaty();
+    System.out.println(refr3);
+    int refr4=Toothpaste.getPrice();
+    System.out.println(refr4);
+    String refr5=Toothpaste.getPasteColor();
+    System.out.println(refr5);
+    String refr6=Toothpaste.getCoverColor();
+    System.out.println(refr6);
+    int refr7=Toothpaste.getNoOfcolours();
+    System.out.println(refr7);
+    String refr8=Toothpaste.getFlaver();
+    System.out.println(refr8);
+    String refr9=Toothpaste.getMfg	();
+    System.out.println(refr9);
+    boolean refr10=Toothpaste.isPacked();
+    System.out.println(refr10);
+    boolean refr11=Toothpaste.isWithbrush();
+    System.out.println(refr11);
+    long refr12=Toothpaste.getBarcode();
+    System.out.println(refr12);
+    long refr13=Toothpaste.getCustomercare();
+	System.out.println(refr13);
+    long refr14=Toothpaste.getUsers();
+    System.out.println(refr14);
+    String refr15=Toothpaste.getExparydate();
+    System.out.println(refr15);
+	}
+}
