@@ -24,17 +24,18 @@ class color{
 			System.out.println(index);
 		}
 	}
-	static void checkColor(String colors)
+	static boolean checkColor(String colors)
 	{
 		if(allColors!=null && colors.length()>=3)
 		{
-			System.out.println("color will find in memory");
 			for(int info=0;info<allColors.length;info++)
 			{
+				System.out.println("color will find in memory");
 				String ref=allColors[info];
 				if(ref==colors)
 				{
 					System.out.println("colour found:"+colors);
+					return true;
 				}
 			}
 		}       
@@ -42,5 +43,6 @@ class color{
 		         {
 			      System.out.println("color not in memory");
 		         }
+				 return false;
 	}	
 }

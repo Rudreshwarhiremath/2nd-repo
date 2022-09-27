@@ -5,13 +5,13 @@ class colorRunner
 		   System.out.println("Print started");
 		   color.save("RED");
 		   color.save("Orange");
-		   color.save("Yello");
+		   color.save("Yellow");
 		   color.save("White");
 		   color.save("Green");
 		   color.save("BLACK");
 		   color.save("Blue");
 		   color.desply();
-		   color.checkColor("White");
+		  boolean ref= color.checkColor("White");
 	   }
  	
 	
